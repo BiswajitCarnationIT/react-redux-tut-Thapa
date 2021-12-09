@@ -13,7 +13,7 @@ function App() {
       <Home/>
       <button name= "button" onClick={()=>{dispatchAction(decNumber())}}>+</button>
       <input name = "quantity" type="text" className='quantity' value = {myState}/>
-      <button name= "button" onClick={()=>{dispatchAction(incNumber())}}>-</button>
+      <button name= "button" onClick={()=>{dispatchAction(incNumber(5))}}>-</button>
     </div>
   );
 }
